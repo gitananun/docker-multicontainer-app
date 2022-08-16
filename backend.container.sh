@@ -1,1 +1,0 @@
-docker run --name goals-backend --rm -v /Users/tigranmuradyan/development/learning/docker/multi-docker-application/backend:/app -v logs:/app/logs -v /app/node_modules -p 3300:80 --network goals-net goals-node
